@@ -26,15 +26,21 @@ List of such methods:
 - `em.findOne()`
 - `em.findOneOrFail()`
 - `em.findAndCount()`
+- `em.getReference()`
 - `em.merge()`
 - `em.fork()`
 - `em.begin()`
+- `em.assign()`
+- `em.create()`
 - `repo.find()`
 - `repo.findOne()`
 - `repo.findOneOrFail()`
 - `repo.findAndCount()`
 - `repo.findAll()`
+- `repo.getReference()`
 - `repo.merge()`
+- `repo.create()`
+- `repo.assign()`
 
 This also applies to the methods on `IDatabaseDriver` interface.
 
